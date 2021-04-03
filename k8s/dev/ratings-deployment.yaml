@@ -37,6 +37,6 @@ spec:
         - name: SERVICE_VERSION
           value: v2
         - name: MONGO_DB_URL
-          value: mongodb://bookinfo-dev-ratings-mongodb:27017/ratingskubectl apply -f k8s/
+          value: mongodb://bookinfo-dev-ratings-mongodb:27017/ratings
       imagePullSecrets:
       - name: registry-bookinfo
